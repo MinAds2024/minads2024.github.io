@@ -1,0 +1,7 @@
+{
+  "name": "Null",
+  "launguage": "en, ru",
+  "permissions": "editPlayers, editUsers, editWorld, ",
+  "herobrinePerm": "false",
+  "DoDeleteFile": "true"
+}
