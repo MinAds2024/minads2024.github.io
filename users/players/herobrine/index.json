@@ -1,0 +1,7 @@
+{
+  "name": "Herobrine",
+  "launguage": "en, ru",
+  "permissions": "editPlayers, editUsers, editWorld, editFiles, editNull, editCode, editBlocks, editVoid, editAdmins, connectServer, allServers",
+  "herobrinePerm": "true",
+  "DoDeleteFile": "false"
+}
