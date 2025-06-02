@@ -1,32 +1,16 @@
 <html>
-  <body>
-    <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyA6dMj8T2Jq7QnDp7bQMnF7u9goqKM0cDc",
-    authDomain: "ryg-chat-53b85.firebaseapp.com",
-    databaseURL: "https://ryg-chat-53b85-default-rtdb.firebaseio.com",
-    projectId: "ryg-chat-53b85",
-    storageBucket: "ryg-chat-53b85.firebasestorage.app",
-    messagingSenderId: "789332240016",
-    appId: "1:789332240016:web:33ee057bfe0333eb795a15"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-    </script>
-  </body>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon" />
   </head>
 </html>
+
+
+
+
+
+
 <SCRIPT LANGUAGE="JavaScript">
 
 function Getstats()
@@ -46,7 +30,7 @@ window.status=('Missing data or Invalid. Check spelling and Ensure Names are in 
 else
 {
 
-var location=(iName + ".html");
+var location=("login/$name=" + iName);
 this.location.href = location;
 window.status=(' Verifying: ' + iName +' Please wait........');
 }
