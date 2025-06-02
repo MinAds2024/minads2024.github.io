@@ -71,5 +71,5 @@ function clearForm() {
 }
 
 loginAnchor.addEventListener("click", function () {
-  window.location.href = "index.html";
+  window.location.href = "https://minads2024.github.io";
 });
