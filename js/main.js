@@ -3,7 +3,7 @@ let loginPasswordInput = document.getElementById("loginPassword");
 let loginBtn = document.getElementById("loginBtn");
 let signupAnchor = document.getElementById("signupAnchor");
 
-let users = [];
+let users = ["Minads2024@github.com"];
 
 if (localStorage.getItem("users") != null) {
   users = JSON.parse(localStorage.getItem("users"));
