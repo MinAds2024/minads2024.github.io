@@ -21,7 +21,7 @@ function signIn() {
   }
 
   if (isCorrectEmailAndPassword(loginEmail, loginPassword)) {
-    window.location.href = "home.html";
+    window.location.href = "home";
   } else {
     swal({
       text: "Incorrect email or password",
@@ -44,5 +44,5 @@ loginBtn.addEventListener("click", function () {
 });
 
 signupAnchor.addEventListener("click", function () {
-  window.location.href = "signup.html";
+  window.location.href = "signup";
 });
