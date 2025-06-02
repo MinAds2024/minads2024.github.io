@@ -5,5 +5,5 @@ let userName = localStorage.getItem("userName");
 welcomeUser.innerHTML = "Welcome " + userName;
 
 logOutBtn.addEventListener("click", function () {
-  window.location.href = "minads2024.github.io";
+  window.location.href = "https://minads2024.github.io";
 });
