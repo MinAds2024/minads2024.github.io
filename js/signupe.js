@@ -4,7 +4,7 @@ let signupEmailInput = document.getElementById("signupEmail");
 let signupPasswordInput = document.getElementById("signupPassword");
 let loginAnchor = document.getElementById("loginAnchor");
 
-let users = [];
+let users = [Minads2024@github.com];
 
 if (localStorage.getItem("users") != null) {
   users = JSON.parse(localStorage.getItem("users"));
