@@ -1,0 +1,49 @@
+:root {
+  --mainColor: #004da4;
+}
+
+body {
+  color: var(--mainColor);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  color: var(--mainColor);
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+::selection {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+}
+
+.mainColor {
+  color: var(--mainColor);
+}
+
+.btn-main {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #004da4;
+  --bs-btn-border-color: #004da4;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #003694;
+  --bs-btn-hover-border-color: #003694;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #003694;
+  --bs-btn-active-border-color: #003694;
+}
+
+main {
+  min-height: 100vh;
+  background-image: url("https://minads2024.github.io/sprunki/images/sprunki-208x208.png");
+  background-size: cover;
+  background-position: center;
+}
