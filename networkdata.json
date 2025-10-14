@@ -1,5 +1,6 @@
 {
   "proxy": "https://minads2024.github.io/proxy/index.js",
   "connections_allowed": "true",
-  "url": "https://minads2024.github.io/example/login_network/index.html"
+  "url": "https://minads2024.github.io/example/login_network/index.html",
+  "cansel_message": "$hack$Child you are hacked!!!$hack$"
 }
